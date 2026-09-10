@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-10T08:00:00Z",
+  "structure_id": "Bridge_Span_4",
+  "sensors": [
+    {
+      "sensor_id": "ACCEL_NODE_A",
+      "type": "Accelerometer",
+      "location": "Mid-span",
+      "readings": {
+        "natural_frequency_hz": 1.99,
+        "baseline_frequency_hz": 2.10,
+        "damping_ratio": 0.015,
+        "anomaly_flag": true
+      }
+    },
+    {
+      "sensor_id": "ACCEL_NODE_B",
+      "type": "Accelerometer",
+      "location": "Support_Pier_1",
+      "readings": {
+        "natural_frequency_hz": 4.50,
+        "baseline_frequency_hz": 4.51,
+        "damping_ratio": 0.020,
+        "anomaly_flag": false
+      }
+    }
+  ],
+  "environmental_conditions": {
+    "temperature_c": 22.5,
+    "wind_speed_kmh": 15.2
+  }
+}
